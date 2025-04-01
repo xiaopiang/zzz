@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-pv(kefdtm*-=#-=i1+^gmr&nd+6p)%-gf2ffck+6129iv7(=@!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['movie-fastshop-app-1bd424fce156.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
