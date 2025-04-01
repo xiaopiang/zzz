@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -450,7 +451,7 @@
         <div class="movie-grid">
             <div class="movie-card">
                 <div class="movie-poster">
-                    <img src="/static/img/movie1.png" alt="電影海報">
+                    <img src="{% static 'img/movie1.png' %}" alt="電影海報">
                 </div>
                 <div class="movie-info">
                     <h3 class="movie-title">白雪公主</h3>
